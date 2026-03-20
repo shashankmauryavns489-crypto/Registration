@@ -1,0 +1,41 @@
+.List {
+    background-color: #be0d0d;
+
+}
+
+.Intro {
+    background-color: #be0d0d;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+li::before {
+    background-color: #10ea26;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+p::before {
+    content: "hello world";
+    background-color: #ea1096;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+::selection {
+    content: "hello world";
+    background-color: #eac210;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+h1::after {
+    background-color: #0548ce;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
